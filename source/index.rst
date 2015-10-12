@@ -15,6 +15,7 @@ Contents:
    python-args-pack-unpack-2015-10-12
    why-is-0[0]-syntactically-valid-in-javascript-2014-04-10
    weekly-review-2014-09-11
+   python-formater-manual-2014-09-14
 
 Indices and tables
 ==================
