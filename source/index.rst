@@ -12,7 +12,8 @@ Contents:
    :maxdepth: 2
 
    about
-   python-args-pack-unpack
+   python-args-pack-unpack-2015-10-12
+   why-is-0[0]-syntactically-valid-in-javascript-2014-04-10
 
 Indices and tables
 ==================
