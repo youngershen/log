@@ -12,7 +12,7 @@ Contents:
    :maxdepth: 2
 
    about
-   PYTHON函数参数的pack与unpack
+   python-args-pack-unpack
 
 Indices and tables
 ==================
