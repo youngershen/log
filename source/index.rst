@@ -14,7 +14,6 @@ Contents:
    about
    PYTHON函数参数的pack与unpack
 
-
 Indices and tables
 ==================
 

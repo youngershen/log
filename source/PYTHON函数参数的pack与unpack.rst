@@ -78,8 +78,9 @@ PYTHON中函数参数的pack与unpack
 
 那么我会说这完全是可以的，但是你以后需要再查询别的东西的时候，你必须一直写get方法，这样的写法，会导致CBV的优势荡然无存，那还不如直接去写FBV的好，大家都说FBV容易理解，其实我觉得让我写的话肯定是写CBV，不喜欢看到乱糟糟的代码。
 
+
 函数参数的解包问题：
--------------------
+--------------------
 
 由于已经很久很久没有写python了，所以不免会忘记一些东西，这次跳的一个小坑就是在函数参数上出了问题。
 我想实现的是这样的效果::
@@ -87,7 +88,11 @@ PYTHON中函数参数的pack与unpack
     params = { 'tags__label__conatains' : wow'}
     Blog.objects.filter(params)
 
-上面这样直接传入字典是不行的,因为filter中的参数是一个有默认值的tags__table__contains 参数，我的目的是想给它一个值，这样在func(*args, **kwargs)里是解析不到kwargs里的，实际上传入一个字典的结果都在args 参数里，因为我们传入的是一个对象，而不是kv, 只有传入test(a=1, b=2)这样的值才会被解析到kwargs中，现在我们这样写::
+上面这样直接传入字典是不行的,因为filter中的参数是一个有默认值的tags__table__contains 参数，我的目的是想给它一个值，这样在::
+
+    func(*args, **kwargs)
+
+里是解析不到kwargs里的，实际上传入一个字典的结果都在args 参数里，因为我们传入的是一个对象，而不是kv, 只有传入test(a=1, b=2)这样的值才会被解析到kwargs中，现在我们这样写::
 
     Blog.objects.filter(params.keys()[0] = params.values()[0])
 
