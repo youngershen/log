@@ -129,7 +129,7 @@ http://userscripts.org/scripts/show/145608
 有些暴躁，不过整体还行.
 
  
-教育经理 :
+教育经历 :
 
 CSDN黑马培训JAVA WEB开发。
 
