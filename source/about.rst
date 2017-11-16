@@ -1,7 +1,7 @@
 关于作者
 ========
 
-申延刚，字明远，庚午年生人，男。
+申延刚，字明远，90年生人，男。
 
 Phone : 13811754531
 
@@ -11,7 +11,7 @@ Github : https://github.com/youngershen
 
 Zhihu : http://www.zhihu.com/people/shen-yan-gang
 
-Wechat: younger-the-guy
+Wechat: 13811754531
 
 Blog : http://www.cnblogs.com/youngershen
 
@@ -86,7 +86,9 @@ http://userscripts.org/scripts/show/145608
 1. 深圳国税稽查可视化系统（2017/10）， 该系统使用 DJANGO/AngularJS/Pandas/Mysql/Oracle 等多项技术开发，主要业务把企业相关的数据（报税记录，进销项等数据）利用数据可视化的方法呈献给稽查人员，以增加办公效率。同时该系统也附带一些 OA 功能。
 
 
+
 2. 电信机房监控项目（2016/12）， 该系统使用 Java EE / MySQL 相关技术进行开发，主要功能是读取机房机器中的相关系统数据，整理成日志存储起来，然后列表展示，同时也整合了 SSH 及远程桌面等功能，以便机房管理员方便管理服务器。
+
 
 
 3. 服务器云监控系统（2016/10）， 该系统根据客户的要求高仿了 优云 https://www.uyun.cn/ 的部分业务，二次开发了一套系统探针，使用 PYTHON 进行开发， WEB 端使用 DJANGO/MYSQL, 主要功能是利用探针收集服务器的相关运维数据，然后发送 HTTP 请求到监控服务器，监控服务器以图表来展示相关数据，同时也具有报警功能。
