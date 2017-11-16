@@ -131,6 +131,8 @@ http://userscripts.org/scripts/show/145608
  
 教育经历 :
 
+北京大学计算机信息管理专业（2017自考中）
+
 CSDN黑马培训JAVA WEB开发。
 
 2013 年毕业于河北软件职业技术学院。
