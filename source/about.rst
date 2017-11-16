@@ -13,15 +13,15 @@ Zhihu : http://www.zhihu.com/people/shen-yan-gang
 
 Wechat: younger-the-guy
 
-Blog : http://www.cnblogs.com/youngershen  http://youngershen.com
+Blog : http://www.cnblogs.com/youngershen
 
 
 技能:
 -----
 
-编程语言 : python (主要使用)/ java/ javascript / lua / ruby 基本掌握 C/C++
+编程语言 : python (主要使用)/ php/ java/ javascript / lua / ruby 基本掌握 C/C++
 
-web 前端 : Jquery / bootstrap/ html/ html5
+web 前端 : ReactJS/ DVA/ NodeJS/ Scss/ Sass/ Jquery / bootstrap/ html5
 
 
 框架:
@@ -83,15 +83,23 @@ http://userscripts.org/scripts/show/145608
 
 工作中的项目:
 
-1. 维护亿元成交量电商网站的订单系统 www.zgxcw.com.cn .
+1. 深圳国税稽查可视化系统（2017/10）， 该系统使用 DJANGO/AngularJS/Pandas/Mysql/Oracle 等多项技术开发，主要业务把企业相关的数据（报税记录，进销项等数据）利用数据可视化的方法呈献给稽查人员，以增加办公效率。同时该系统也附带一些 OA 功能。
 
-2. 带社交系统的云ERP系统 test.hiveall.com .
+2. 电信机房监控项目（2016/12）， 该系统使用 Java EE / MySQL 相关技术进行开发，主要功能是读取机房机器中的相关系统数据，整理成日志存储起来，然后列表展示，同时也整合了 SSH 及远程桌面等功能，以便机房管理员方便管理服务器。
 
-3. 在 178 游戏网开发过 wow 的插件(魔兽大脚) 以及使用 bolt 开发部分 win32 程序的UI模块。
+3 服务器云监控系统（2016/10）， 该系统根据客户的要求高仿了 优云 https://www.uyun.cn/ 的部分业务，二次开发了一套系统探针，使用 PYTHON 进行开发， WEB 端使用 DJANGO/MYSQL, 主要功能是利用探针收集服务器的相关运维数据，然后发送 HTTP 请求到监控服务器，监控服务器以图表来展示相关数据，同时也具有报警功能。
 
-4. 使用 ngx_openresty 配合 lua 开发的 ios 程序的后端接口.
+4 51chongchong 流量充值微信公众号 www.51chongchong.com ， 该系统 主要是调用相关服务商的 API 实现流量和话费充值功能， 也附带有一个微信公众号， 调用了部分 微信的API， 使用 DJANGO/Mysql 开发。
 
-5. 在实习过程中使用 python 配合 flask 框架开发的公司内部员工OA系统.
+6. 维护亿元成交量电商网站的订单系统（2015） www.zgxcw.com.cn.
+
+7. 带社交系统的云ERP系统（2015） test.hiveall.com.
+
+8. 在 178 游戏网开发过（2013） wow 的插件(魔兽大脚) 以及使用 bolt 开发部分 win32 程序的UI模块。
+
+9. 使用 ngx_openresty（2012） 配合 lua 开发的 ios 程序的后端接口.
+
+10. 在实习过程中使用（2012） python 配合 flask 框架开发的公司内部员工OA系统.
 
  
 
@@ -104,6 +112,8 @@ http://userscripts.org/scripts/show/145608
 2013/1—-2013/10 | 独立开发, 包括 samsung smart TV 的 app 和 ios 的游戏 ,但是没有产出.(时间都玩游戏了).
 
 2014/9—-2015/5 | 北京四海道达网络科技有限公司， 做IT外包.
+
+2015/6 - 至今 | 自由职业者/独立开发者
  
 
 优点与缺点 :
